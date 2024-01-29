@@ -1,0 +1,12 @@
+{
+    "model-properties" : [
+        {
+            "color-mode" : "grayscale",
+            "class-mode" : "categorical",
+            "checkpoint-weights-path" : "/mnt/c/Users/mikai/chest-ai/src/temp/checkpoint/checkpoint.hdf5",
+            "weights-path" : "/mnt/c/Users/mikai/chest-ai/src/temp/weights/weights.hdf5"
+        }
+    ],
+    "min-cases" : 1000,
+    "predictions-directory" : "/mnt/c/Users/mikai/chest-ai/predictions.json"
+}
