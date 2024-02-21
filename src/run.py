@@ -110,18 +110,7 @@ def __run():
     from config import PREDICITONS_DIRECTORY
     write(PREDICITONS_DIRECTORY, __predictions)
     visualize(__predictions, __test_y, __test_x, __classes)
-    print(__predictions[0])
-    for i in range(5):
-        pred_str = ['%s:%2.0f%%' % (n_class[:4], p_score*100)  for n_class, n_score, p_score in zip(__classes, 
-                                                                    __test_y[i], __predictions[i]) 
-                                if (n_score>0.5) or (p_score>0.5)]
-        print((n_class, n_score, p_score) for (n_class, n_score, p_score) in zip(__classes, __test_y[i], __predictions[i]))
-        print(pred_str)
-    sicket_idx = np.argsort(np.sum(__test_y, 1) < 1)
-    fig, m_axis = plt.subplots(40, 20, figsize=(16, 32))
-    for (idx, c) in zip(sicket_idx, m_axis.flatten()):
-        c.imshow(__test_x[idx, :, :,0], cmap="bone")
-
+   
 if __name__ == "__main__":
 
 
