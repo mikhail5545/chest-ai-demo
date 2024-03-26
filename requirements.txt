@@ -1,5 +1,7 @@
 tensorflow==2.15.0
 pillow==10.2.0
-pandas==
-matplotlib
-numpy
+pandas==2.20
+pillow==10.2.0
+matplotlib==3.8.2
+numpy==1.26.3
+h5py==3.10.0
