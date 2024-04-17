@@ -12,9 +12,9 @@ def _extract_data() -> tuple:
     """
 
 
-    xray_df = pd.read_csv('/mnt/c/Users/mikai/chest-ai/input/Data_Entry_2017.csv')
+    xray_df = pd.read_csv('#/chest-ai/input/Data_Entry_2017.csv')
 
-    image_paths = {os.path.basename(x) : x for x in glob(os.path.join('/mnt/c/Users/mikai/chest-ai/input', 'images*', '*', '*.png'))}
+    image_paths = {os.path.basename(x) : x for x in glob(os.path.join('#/chest-ai/input', 'images*', '*', '*.png'))}
 
     print(f"images found: {len(image_paths)}")
 
