@@ -3,10 +3,10 @@
         {
             "color-mode" : "grayscale",
             "class-mode" : "categorical",
-            "checkpoint-weights-path" : "/mnt/c/Users/mikai/chest-ai/src/temp/checkpoint/checkpoint.hdf5",
-            "weights-path" : "/mnt/c/Users/mikai/chest-ai/src/temp/weights/weights.hdf5"
+            "checkpoint-weights-path" : "#/chest-ai/src/temp/checkpoint/checkpoint.hdf5",
+            "weights-path" : "/#/chest-ai/src/temp/weights/weights.hdf5"
         }
     ],
     "min-cases" : 1000,
-    "predictions-directory" : "/mnt/c/Users/mikai/chest-ai/predictions.json"
+    "predictions-directory" : "#/chest-ai/predictions.json"
 }
